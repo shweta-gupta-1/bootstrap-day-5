@@ -1,0 +1,61 @@
+@keyframes bounce{
+    0%{transform: scale(1)}
+    50%{transform: scale(1.4)}
+    100%{transform: scale(1)}
+
+}
+.navbar-brand{
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-iteration-count: 3;
+}
+#carousel-bg-image{
+    background: url(./images/banner-img-1.jpg) center/cover;
+    height: 100vh;
+}
+.shopping-buttons{
+    background-color: #fff;
+    color: rgb(85,85,85);
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 1px solid rgb(85,58,58);
+}
+.shopping-buttons:hover{
+    background-color: #e5345b;
+    color: #fff ;
+    border-color: #e5345b;
+}
+.active-button{ background-color: #e5345b;
+    color: #fff ;
+    border-color: #e5345b;
+}
+   
+.title::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 40px;
+    background-color:#e5345b ;
+    transform: translateX(-20px);
+}
+.card-text{
+    i{
+        color:#e5345b ;
+    }
+}
+#offers{
+    background: url(./images/offer_img.jpg)center/cover;
+    height: 100vh;
+}
+
+.card-image-top:hover {
+        transform:scale(1.1);
+        transition  :0.4s !important;
+    }
+    .success{
+        font-size: 100px;
+        color: green;
+    }
